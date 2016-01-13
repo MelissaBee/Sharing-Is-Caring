@@ -1,0 +1,71 @@
+body{
+    font-family: 'Dosis', sans-serif;  /* this is how you place your font family */
+}
+
+.content {
+    margin: auto; /* This is how you centre text horizontally */
+    max-width: 40em; /* 640px */
+    padding: 0 1em; /* no padding top and bottom, 1em left and right*/
+}
+
+.full {
+    height: 100%;
+    background-size: cover;
+    /* this places the image in the correct place*/
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*the hashtag represents an id which is unique to the individual picture*/
+#Roar-Tiger {
+    background-image: url(Roar%20Tiger.jpg);
+    background-size: cover;
+    /* this places the image in the correct place*/
+    background-position: center;
+}
+
+#Tiger-Wallpaper {
+    background-image: url(Tiger%20Wallpaper.png)
+}
+
+#Tiger {
+    background-image: url(Tiger.jpeg)
+}
+
+#header {
+    width: 250px;
+        margin-left: -125px;
+    margin-top: -162px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#email {
+    width: 250px;
+    margin-left: -125px;
+/*    margin-top: 440px;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.animate {
+    padding-top: 38% ;
+    padding-left: 45%;
+    color:darkorange;
+    font-family:serif
+        
+}
+
+
+
+
+
+
+
